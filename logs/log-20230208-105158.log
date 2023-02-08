@@ -1,0 +1,31 @@
+# Logfile created on 2023-02-08 10:51:58 +0000 by logger.rb/v1.4.2
+2023-02-08 10:52:02 +0000, : Navigated to Blogvault Login Dashboard
+2023-02-08 10:52:02 +0000, : Entering username and password
+2023-02-08 10:52:08 +0000, : Logged in into Blogvault
+2023-02-08 10:52:18 +0000, : Clicked on ADD SITE and putting the url
+2023-02-08 10:52:18 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-08 10:52:18 +0000, : URL entered successfully, entering the admin username and password
+2023-02-08 10:52:19 +0000, : Wait for progress bar to load
+2023-02-08 10:52:47 +0000, : Clicked on Initiate Sync link.
+2023-02-08 10:53:09 +0000, : Site Added
+2023-02-08 10:53:13 +0000, : Clicked on most recent site
+2023-02-08 10:53:14 +0000, : undefined local variable or method `wait' for #<ManagePlugin:0x00005593cf30bae8>
+Did you mean?  @wait
+2023-02-08 10:53:14 +0000, : no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=" ADD NEW"]"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 10:53:16 +0000, : Clicked on most recent site
+2023-02-08 10:53:17 +0000, : undefined local variable or method `wait' for #<ManagePlugin:0x00005593cf30bae8>
+Did you mean?  @wait
+2023-02-08 10:53:17 +0000, : Searched a plugin
+2023-02-08 10:53:17 +0000, : no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='WooCommerce']"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 10:53:21 +0000, : Clicked on most recent site
+2023-02-08 10:53:22 +0000, : undefined local variable or method `wait' for #<ManagePlugin:0x00005593cf30bae8>
+Did you mean?  @wait
+2023-02-08 10:53:22 +0000, : Searched a plugin
+2023-02-08 10:53:22 +0000, : no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='WooCommerce']"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 10:53:22 +0000, : Rolling back by deleting the added site
+2023-02-08 10:53:25 +0000, : Clicked on most recent site
+2023-02-08 10:53:26 +0000, : Site Deleted
+ Rollbacked

@@ -1,0 +1,49 @@
+# Logfile created on 2023-02-08 11:28:45 +0000 by logger.rb/v1.4.2
+2023-02-08 11:28:48 +0000, : Navigated to Blogvault Login Dashboard
+2023-02-08 11:28:49 +0000, : Entering username and password
+2023-02-08 11:28:56 +0000, : Logged in into Blogvault
+2023-02-08 11:28:57 +0000, : Clicked on ADD SITE and putting the url
+2023-02-08 11:28:57 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-08 11:28:57 +0000, : URL entered successfully, entering the admin username and password
+2023-02-08 11:28:58 +0000, : Wait for progress bar to load
+2023-02-08 11:29:24 +0000, : Clicked on Initiate Sync link.
+2023-02-08 11:29:46 +0000, : Site Added
+2023-02-08 11:29:49 +0000, : Clicked on most recent site
+2023-02-08 11:29:51 +0000, : element click intercepted: Element <a class="font12 btn btn-default fw-600 disabled" role="button" href="/app/sites/8b8fd27e/manage/plugins">...</a> is not clickable at point (328, 601). Other element would receive the click: <div class="col-lg-3 col-xs-4 col-sm-4 col-md-4 text-center p-0">...</div>
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 11:29:51 +0000, : no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=" ADD NEW"]"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 11:29:54 +0000, : Clicked on most recent site
+2023-02-08 11:29:56 +0000, : element click intercepted: Element <a class="font12 btn btn-default fw-600 disabled" role="button" href="/app/sites/8b8fd27e/manage/plugins">...</a> is not clickable at point (328, 601). Other element would receive the click: <div class="col-lg-3 col-xs-4 col-sm-4 col-md-4 text-center p-0">...</div>
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 11:29:56 +0000, : Searched a plugin
+2023-02-08 11:29:57 +0000, : no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='WooCommerce']"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 11:29:59 +0000, : Clicked on most recent site
+2023-02-08 11:30:01 +0000, : element click intercepted: Element <a class="font12 btn btn-default fw-600 disabled" role="button" href="/app/sites/8b8fd27e/manage/plugins">...</a> is not clickable at point (328, 601). Other element would receive the click: <div class="col-lg-3 col-xs-4 col-sm-4 col-md-4 text-center p-0">...</div>
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 11:30:01 +0000, : Searched a plugin
+2023-02-08 11:30:01 +0000, : no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='WooCommerce']"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-08 11:30:01 +0000, : Rolling back by deleting the added site
+2023-02-08 11:30:04 +0000, : Clicked on most recent site
+2023-02-08 11:30:06 +0000, : Site Deleted
+ Rollbacked
+2023-02-08 11:30:59 +0000, : Clicked on ADD SITE and putting the url
+2023-02-08 11:30:59 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-08 11:31:00 +0000, : URL entered successfully, entering the admin username and password
+2023-02-08 11:31:01 +0000, : Wait for progress bar to load
+2023-02-08 11:31:30 +0000, : Clicked on Initiate Sync link.
+2023-02-08 11:31:52 +0000, : Site Added
+2023-02-08 11:33:44 +0000, : Clicked on ADD SITE and putting the url
+2023-02-08 11:33:44 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-08 11:33:44 +0000, : URL entered successfully, entering the admin username and password
+2023-02-08 11:33:45 +0000, : Wait for progress bar to load
+2023-02-08 11:34:12 +0000, : Clicked on Initiate Sync link.
+2023-02-08 11:34:34 +0000, : Site Added
+2023-02-08 11:35:53 +0000, : Clicked on ADD SITE and putting the url
+2023-02-08 11:35:53 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-08 11:35:54 +0000, : URL entered successfully, entering the admin username and password
+2023-02-08 11:35:55 +0000, : Wait for progress bar to load
+2023-02-08 11:36:24 +0000, : Clicked on Initiate Sync link.
+2023-02-08 11:36:47 +0000, : Site Added
