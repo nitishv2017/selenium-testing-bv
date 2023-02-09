@@ -5,6 +5,7 @@ require_relative './general_functions.rb'
 require_relative './login.rb'
 require_relative './add_site.rb'
 require_relative './manage_plugin.rb'
+require_relative './report.rb'
 
 class Main
 	USERNAME_BV = 'nitishvaishnav2017@gmail.com'
@@ -29,11 +30,12 @@ class Main
 			login_bv.login(USERNAME_BV, PASSWORD_BV)
 			while true
 				puts "Select one function:"
-				puts "1. Automate [AddSite -> AddPLugin -> UpdatePlugin -> DeletePlugin -> RollbackSiteAdded]"
-				puts "2. Add site"
-				puts "3. Manage Plugins"
-				puts "4. Delete recent site that was added"
-				puts "5. Exit"
+				puts "1. Automate plugin [Add Site -> Add PLugin -> Update Plugin -> Delete Plugin -> Rollback Site Added]"
+				puts "2. Autmate report generation [Add Site -> Generate Report -> Rollback Site Added]"
+				puts "3. Add site"
+				puts "4. Manage Plugins"
+				puts "5. Delete recent site that was added"
+				puts "6. Exit"
 				option = gets.chomp
 				case option
 				when "1"
@@ -46,13 +48,20 @@ class Main
 				when "2"
 					add_site = AddSite.new(@driver, @logger)
 					add_site.run_script
+					navigate_to_sites_list
+					report = Report.new(@driver, @logger)
+					report.run_script
+					add_site.delete_site
 				when "3"
+					add_site = AddSite.new(@driver, @logger)
+					add_site.run_script
+				when "4"
 					manage_plugin = ManagePlugin.new(@driver, @logger)
 					manage_plugin.run_script
-				when "4"
+				when "5"
 					add_site = AddSite.new(@driver, @logger)
 					add_site.delete_site
-				when "5"
+				when "6"
 					return
 				else 
 					puts "Invalid option"

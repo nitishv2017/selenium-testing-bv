@@ -85,7 +85,6 @@ class ManagePlugin
 			manage_btn.click
 			wait_for_loading
 			@logger.info "Clicked manage button of plugins section"
-			wait_for_loading
 		rescue => e
 			handle_error(e)
 		end
@@ -117,10 +116,6 @@ class ManagePlugin
 
 	def search_update_plugin
 		begin
-			#search_box = @driver.find_element(:xpath, SEARCH_BOX)
-			#search_box.click
-			#search_box.send_keys SEARCH_QUERY
-			#search_box.send_keys :return
 			wait_for_loading
 			@logger.info "Searched a plugin"
 			@driver.find_element(xpath: SEARCH_RESULT_MANAGE_PLUGIN).click
@@ -140,10 +135,6 @@ class ManagePlugin
 
 	def search_delete_plugin
 		begin
-			#search_box = @driver.find_element(:xpath, '//div[text()="SEARCH PLUGINS"]')
-			#search_box.click
-			#search_box.send_keys "WooCommerce"
-			#search_box.send_keys :return
 			wait_for_loading
 			@logger.info "Searched a plugin"
 			@driver.find_element(xpath: SEARCH_RESULT_MANAGE_PLUGIN).click
