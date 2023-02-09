@@ -78,12 +78,13 @@ class AddSite
 			wait_for_loading
 			sleep(20)
 			@logger.info "Site Added"
+			add_success_report
 		rescue => e
 			handle_error(e)
 		end
 	end
 
-	def roll_back
+	def delete_site
 		begin
 			@logger.info "Rolling back by deleting the added site"
 			wait_for_loading
@@ -96,6 +97,7 @@ class AddSite
 			@driver.find_element(:xpath, CONFIRM_DELETE).click
 			@wait.until{@driver.find_element(:xpath, SITE_REMOVED_NOTIFICATION)}
 			@logger.info "Site Deleted\n Rollbacked"
+			add_success_report
 		rescue => e
 			handle_error(e)
 		end

@@ -109,6 +109,7 @@ class ManagePlugin
 			wait_for_loading
 			@wait.until{@driver.find_element(:xpath, SUCCESS_MSG)}
 			@logger.info "Successfully added plugin"
+			add_success_report
 		rescue => e
 			handle_error(e)
 		end
@@ -131,6 +132,7 @@ class ManagePlugin
 			wait_for_loading
 			@wait.until{@driver.find_element(xpath: SUCCESS_MSG)}
 			@logger.info "Successfully Updated plugin"
+			add_success_report
 		rescue => e
 			handle_error(e)
 		end
@@ -153,6 +155,7 @@ class ManagePlugin
 			wait_for_loading
 			@wait.until{@driver.find_element(xpath: SUCCESS_MSG)}
 			@logger.info "Successfully deleted plugin"
+			add_success_report
 		rescue => e
 			handle_error(e)
 		end

@@ -42,7 +42,7 @@ class Main
 					navigate_to_sites_list
 					manage_plugin = ManagePlugin.new(@driver, @logger)
 					manage_plugin.run_script(true)
-					add_site.roll_back
+					add_site.delete_site
 				when "2"
 					add_site = AddSite.new(@driver, @logger)
 					add_site.run_script
@@ -51,7 +51,7 @@ class Main
 					manage_plugin.run_script
 				when "4"
 					add_site = AddSite.new(@driver, @logger)
-					add_site.roll_back
+					add_site.delete_site
 				when "5"
 					return
 				else 

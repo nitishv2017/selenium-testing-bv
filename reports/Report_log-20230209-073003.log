@@ -1,0 +1,6 @@
+20230209-073110:/home/nitish999/selenium_tests/add_site.rb:enter_wp_admin_credentials passed: Successfully added a site
+20230209-073614:/home/nitish999/selenium_tests/manage_plugin.rb:rescue in navigate_to_manage_plugins failed
+20230209-073614:/home/nitish999/selenium_tests/manage_plugin.rb:rescue in search_add_plugin failed
+20230209-073627:/home/nitish999/selenium_tests/manage_plugin.rb:rescue in search_update_plugin failed
+20230209-073631:/home/nitish999/selenium_tests/manage_plugin.rb:rescue in search_delete_plugin failed
+20230209-073635:/home/nitish999/selenium_tests/add_site.rb:delete_site passed: Successfully deleted site
