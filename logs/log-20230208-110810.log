@@ -1,0 +1,21 @@
+# Logfile created on 2023-02-08 11:08:10 +0000 by logger.rb/v1.4.2
+2023-02-08 11:08:13 +0000, : Navigated to Blogvault Login Dashboard
+2023-02-08 11:08:13 +0000, : Entering username and password
+2023-02-08 11:08:21 +0000, : Logged in into Blogvault
+2023-02-08 11:08:23 +0000, : Clicked on ADD SITE and putting the url
+2023-02-08 11:08:23 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-08 11:08:24 +0000, : URL entered successfully, entering the admin username and password
+2023-02-08 11:08:25 +0000, : Wait for progress bar to load
+2023-02-08 11:08:57 +0000, : Clicked on Initiate Sync link.
+2023-02-08 11:09:19 +0000, : Site Added
+2023-02-08 11:15:41 +0000, : Clicked on most recent site
+2023-02-08 11:15:42 +0000, : Clicked manage button of plugins section
+2023-02-08 11:15:52 +0000, : Inputting WooCommerce as an example
+2023-02-08 11:15:54 +0000, : Installation started
+2023-02-08 11:16:55 +0000, : Successfully added plugin
+2023-02-08 11:17:16 +0000, : Clicked on most recent site
+2023-02-08 11:17:17 +0000, : Clicked manage button of plugins section
+2023-02-08 11:17:20 +0000, : Searched a plugin
+2023-02-08 11:17:20 +0000, : Clicked on delete icon
+2023-02-08 11:17:20 +0000, : Deletion started
+2023-02-08 11:18:06 +0000, : Successfully deleted plugin

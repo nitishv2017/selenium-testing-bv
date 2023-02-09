@@ -1,0 +1,31 @@
+# Logfile created on 2023-02-09 09:07:30 +0000 by logger.rb/v1.4.2
+2023-02-09 09:07:33 +0000, : Navigated to Blogvault Login Dashboard
+2023-02-09 09:07:33 +0000, : Entering username and password
+2023-02-09 09:07:39 +0000, : Logged in into Blogvault
+2023-02-09 09:07:47 +0000, : Clicked on ADD SITE and putting the url
+2023-02-09 09:07:47 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-09 09:07:47 +0000, : URL entered successfully, entering the admin username and password
+2023-02-09 09:07:48 +0000, : Wait for progress bar to load
+2023-02-09 09:08:23 +0000, : Clicked on Initiate Sync link.
+2023-02-09 09:08:45 +0000, : Site Added
+2023-02-09 09:08:48 +0000, : Clicked on most recent site
+2023-02-09 09:13:08 +0000, : Clicked manage button of plugins section
+2023-02-09 09:13:11 +0000, : Inputting WooCommerce as an example
+2023-02-09 09:13:13 +0000, : Installation started
+2023-02-09 09:14:44 +0000, : Successfully added plugin
+2023-02-09 09:14:56 +0000, : Clicked on most recent site
+2023-02-09 09:15:21 +0000, : Clicked manage button of plugins section
+2023-02-09 09:15:21 +0000, : Searched a plugin
+2023-02-09 09:15:21 +0000, : Clicked on update icon
+2023-02-09 09:15:21 +0000, : Update started
+2023-02-09 09:15:52 +0000, : Successfully Updated plugin
+2023-02-09 09:16:19 +0000, : Clicked on most recent site
+2023-02-09 09:16:26 +0000, : Clicked manage button of plugins section
+2023-02-09 09:16:26 +0000, : Searched a plugin
+2023-02-09 09:16:26 +0000, : Clicked on delete icon
+2023-02-09 09:16:27 +0000, : Deletion started
+2023-02-09 09:17:13 +0000, : Successfully deleted plugin
+2023-02-09 09:17:13 +0000, : Rolling back by deleting the added site
+2023-02-09 09:17:16 +0000, : Clicked on most recent site
+2023-02-09 09:17:18 +0000, : Site Deleted
+ Rollbacked

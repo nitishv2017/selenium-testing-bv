@@ -1,0 +1,28 @@
+# Logfile created on 2023-02-09 07:30:03 +0000 by logger.rb/v1.4.2
+2023-02-09 07:30:06 +0000, : Navigated to Blogvault Login Dashboard
+2023-02-09 07:30:06 +0000, : Entering username and password
+2023-02-09 07:30:11 +0000, : Logged in into Blogvault
+2023-02-09 07:30:13 +0000, : Clicked on ADD SITE and putting the url
+2023-02-09 07:30:13 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-09 07:30:13 +0000, : URL entered successfully, entering the admin username and password
+2023-02-09 07:30:14 +0000, : Wait for progress bar to load
+2023-02-09 07:30:48 +0000, : Clicked on Initiate Sync link.
+2023-02-09 07:31:10 +0000, : Site Added
+2023-02-09 07:31:13 +0000, : Clicked on most recent site
+2023-02-09 07:36:14 +0000, : rescue in navigate_to_manage_plugins failed: timed out after 300 seconds
+2023-02-09 07:36:14 +0000, : rescue in search_add_plugin failed: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=" ADD NEW"]"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-09 07:36:25 +0000, : Clicked on most recent site
+2023-02-09 07:36:27 +0000, : Clicked manage button of plugins section
+2023-02-09 07:36:27 +0000, : Searched a plugin
+2023-02-09 07:36:27 +0000, : rescue in search_update_plugin failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='WooCommerce']"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-09 07:36:30 +0000, : Clicked on most recent site
+2023-02-09 07:36:31 +0000, : Clicked manage button of plugins section
+2023-02-09 07:36:31 +0000, : Searched a plugin
+2023-02-09 07:36:31 +0000, : rescue in search_delete_plugin failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='WooCommerce']"}
+  (Session info: headless chrome=109.0.5414.74)
+2023-02-09 07:36:31 +0000, : Rolling back by deleting the added site
+2023-02-09 07:36:33 +0000, : Clicked on most recent site
+2023-02-09 07:36:35 +0000, : Site Deleted
+ Rollbacked

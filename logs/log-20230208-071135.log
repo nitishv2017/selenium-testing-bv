@@ -1,0 +1,6 @@
+# Logfile created on 2023-02-08 07:11:35 +0000 by logger.rb/v1.4.2
+2023-02-08 07:11:37 +0000, : Navigated to Blogvault Login Dashboard
+2023-02-08 07:11:37 +0000, : Entering username and password
+2023-02-08 07:11:43 +0000, : Logged in into Blogvault
+2023-02-08 07:11:46 +0000, : undefined method `runscript' for #<AddSite:0x000055f554734c78>
+Did you mean?  run_script

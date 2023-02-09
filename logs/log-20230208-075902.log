@@ -1,0 +1,11 @@
+# Logfile created on 2023-02-08 07:59:02 +0000 by logger.rb/v1.4.2
+2023-02-08 07:59:04 +0000, : Navigated to Blogvault Login Dashboard
+2023-02-08 07:59:04 +0000, : Entering username and password
+2023-02-08 07:59:12 +0000, : Logged in into Blogvault
+2023-02-08 07:59:15 +0000, : Clicked on ADD SITE and putting the url
+2023-02-08 07:59:15 +0000, : {"url"=>"https://night-romp-mijo.instawp.xyz", "username"=>"cebicoroke3956", "password"=>"pluzohfMs0xS2kLBAOEJ"}
+2023-02-08 07:59:15 +0000, : URL entered successfully, entering the admin username and password
+2023-02-08 07:59:16 +0000, : Wait for progress bar to load
+2023-02-08 07:59:16 +0000, : undefined method `any?' for #<Selenium::WebDriver::Element:0x000055a93c2640e0>
+2023-02-08 07:59:19 +0000, : element not interactable
+  (Session info: headless chrome=109.0.5414.74)
